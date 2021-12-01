@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
     resource_group_name  = "nitinjainrg"
-    storage_account_name = "njtfstatedevops"
+    storage_account_name = "njterraformstate"
     container_name       = "terraform-state"
     key                  = "terraform.tfstate"
   }
